@@ -37,7 +37,7 @@ void MainWindow::on_Inloggen_clicked()
     }
 }
 
-void MainWindow::on_pushButton_clicked()
+void MainWindow::on_Uitloggen_clicked()
 {
     ui->Inlogwidget->setCurrentIndex(0);
 }
