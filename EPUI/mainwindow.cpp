@@ -36,3 +36,8 @@ void MainWindow::on_Inloggen_clicked()
         ui->ErrorLabel->show();
     }
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->Inlogwidget->setCurrentIndex(0);
+}

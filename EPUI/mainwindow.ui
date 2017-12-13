@@ -36,7 +36,7 @@
 border-color: rgb(6, 6, 6);</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="aanmelden">
      <attribute name="title">
@@ -132,7 +132,7 @@ color: rgb(255, 255, 255);</string>
 border-color: rgb(8, 8, 8);</string>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page">
        <widget class="QFrame" name="LoginBlokje">
@@ -342,12 +342,23 @@ border-color: rgb(8, 8, 8);</string>
          <rect>
           <x>40</x>
           <y>60</y>
-          <width>181</width>
-          <height>22</height>
+          <width>211</width>
+          <height>21</height>
          </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+         </font>
         </property>
         <property name="text">
          <string>Alle websites blokkeren</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
         </property>
        </widget>
        <widget class="QTextEdit" name="Websites">
@@ -359,6 +370,11 @@ border-color: rgb(8, 8, 8);</string>
           <height>201</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+         </font>
+        </property>
        </widget>
        <widget class="QLabel" name="label_9">
         <property name="geometry">
@@ -369,8 +385,39 @@ border-color: rgb(8, 8, 8);</string>
           <height>16</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+         </font>
+        </property>
         <property name="text">
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Blacklist websites:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>270</y>
+          <width>141</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>8</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Log out</string>
         </property>
        </widget>
       </widget>
@@ -400,7 +447,7 @@ border-color: rgb(8, 8, 8);</string>
        <rect>
         <x>70</x>
         <y>30</y>
-        <width>111</width>
+        <width>141</width>
         <height>16</height>
        </rect>
       </property>
@@ -416,9 +463,9 @@ border-color: rgb(8, 8, 8);</string>
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>620</x>
+        <x>600</x>
         <y>30</y>
-        <width>101</width>
+        <width>121</width>
         <height>16</height>
        </rect>
       </property>
@@ -434,7 +481,7 @@ border-color: rgb(8, 8, 8);</string>
      <widget class="QLabel" name="label_7">
       <property name="geometry">
        <rect>
-        <x>250</x>
+        <x>270</x>
         <y>30</y>
         <width>81</width>
         <height>16</height>
