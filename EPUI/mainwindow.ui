@@ -147,6 +147,7 @@ border-color: rgb(8, 8, 8);</string>
         <property name="font">
          <font>
           <family>DejaVu Sans</family>
+          <pointsize>7</pointsize>
          </font>
         </property>
         <property name="styleSheet">
